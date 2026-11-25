@@ -1,48 +1,18 @@
-# The Bell — главная с маркетинговыми блоками (прототип)
+# The Bell Homepage Prototype
 
-Angular 21, standalone-компоненты и signals.
+An Angular prototype of The Bell’s homepage with a layout editor and a simulated subscription checkout.
+
+## Run locally
 
 ```bash
 npm install
-npm start                               # http://localhost:4200, конструктор: /#constructor
+npm start
 ```
 
-Чекаут открывается кнопкой «Подписаться» на карточке продукта или прямой ссылкой:
-`http://localhost:4200/?checkout=unlimited&price=year`. Продукт и тариф хранятся в query-параметрах,
-код в `src/app/checkout/`.
+Open the [homepage](http://localhost:4200), [layout editor](http://localhost:4200/#constructor), or [checkout demo](http://localhost:4200/?checkout=unlimited&price=year).
 
-Режим переключается свитчем в подвале: «Сайт» или «Конструктор». Ссылки на живой сайт отключены
-намеренно, чтобы из прототипа нельзя было уйти на thebell.io.
+## Checkout
 
-## Данные
-
-- `src/app/data/homepage.snapshot.json` — сетка главной (15 строк шириной 25/33/50/100%) и 44 новости.
-  Картинки лежат в `public/snapshot/`.
-- `src/app/data/webinars.snapshot.json` — сезон вебинаров the-chat.io: дата и время (CET), спикер,
-  длительность со страницы вебинара, фото.
-- `src/app/data/products.json` — четыре продукта для витрины (Unlimited, рассылки The Bell, Invest, Tech)
-  и The Chat, через который продаются вебинары. Тарифы собраны вручную 24.11.2026 со страниц подписок
-  (thebell.io/paywall, thebell.io/invest, subscription.thebell.io/tech и /unlimited) для модалки тарифов.
-- Верхний баннер — статичная копия слота `TOP_BANNER`. На сайте его заполняет баннерная система на клиенте,
-  креативы ротируются; здесь закреплён Unlimited.
-
-## Модель
-
-Каждый слот сетки — `Tile`: тип `news | product | webinar`, id новости редакции и настройки обоих
-маркетинговых типов. При переключении типа ничего не теряется. Если маркетинговому блоку сейчас нечего
-показать, в слоте остаётся новость, и сетка не ломается.
-
-- **Продукт** — очередь периодов: продукт, начало, конец. «+» ставит новый период сразу после последнего.
-  При пересечении периодов побеждает тот, что раньше в очереди.
-- **Вебинар** — вебинар, начало и длительность. Статус считается по часам: до начала карточка показывает
-  дату, во время эфира — «Онлайн», после — «Запись».
-
-Правила расписания собраны в `src/app/state/schedule.ts`: это чистые функции без Angular.
-
-## Структура
-
-- `state/layout.store.ts` — единый стор: сетка, каталог, выбранный слот, текущее время. Сохраняется в localStorage.
-- `tiles/` — контейнер `app-tile` и карточки новости, продукта и вебинара.
-- `home/` — главная для читателя.
-- `editor/` — конструктор: схема сетки, панели настройки продукта и вебинара.
-- `layout/` — статичные шапка, баннер, подвал со свитчем режима.
+- Product and plan selection, synced with the URL in [checkout.service.ts](src/app/checkout/checkout.service.ts).
+- Form validation and simulated payment in [checkout-dialog.ts](src/app/checkout/checkout-dialog.ts).
+- Product dropdown in [product-picker.ts](src/app/checkout/product-picker.ts).
