@@ -1,0 +1,42 @@
+<div [class]="'preview preview-' + basis()">
+  <div class="preview-frame">
+    @if (webinar() && config().start) {
+      <app-webinar-card [webinar]="webinar()!" [start]="config().start!" [status]="status()" [basis]="basis()" />
+    } @else {
+      <div class="preview-empty">Вебинар не выбран</div>
+    }
+  </div>
+</div>
+
+<div class="fields">
+  <label>
+    Вебинар
+    <select (change)="pick($event)">
+      <option value="" disabled [selected]="!config().webinarId">Выберите вебинар</option>
+      @for (w of store.webinars; track w.id) {
+        <option [value]="w.id" [selected]="w.id === config().webinarId">{{ formatCet(w.start) }} · {{ w.title }}</option>
+      }
+    </select>
+  </label>
+
+  @if (webinar()) {
+    <div class="field">
+      <span class="field-label">Время</span>
+      <div class="times">
+        <input type="datetime-local" aria-label="Начало" [value]="toInput(config().start)" (change)="setStart($event)" />
+        <input type="datetime-local" aria-label="Конец" [value]="toInput(end())" (change)="setEnd($event)" />
+      </div>
+    </div>
+  }
+</div>
+
+@if (webinar()) {
+  <div class="demo" role="radiogroup" aria-label="Демо: состояние вебинара">
+    <span>Демо</span>
+    @for (s of states; track s.value) {
+      <button type="button" role="radio" [attr.aria-checked]="status() === s.value" (click)="setState(s.value)">
+        {{ s.label }}
+      </button>
+    }
+  </div>
+}

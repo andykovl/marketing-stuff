@@ -1,0 +1,54 @@
+<div [class]="'preview preview-' + basis()">
+  <div class="preview-frame">
+    @if (previewProduct(); as product) {
+      <app-product-card [product]="product" [basis]="basis()" />
+    } @else {
+      <div class="preview-empty">Нет активного показа</div>
+    }
+  </div>
+</div>
+
+<div class="queue">
+  @for (period of periods(); track period.id) {
+    <article
+      class="slot"
+      [class.focused]="focusedId() === period.id"
+      [class.invalid]="!isValid(period)"
+      (click)="focusedId.set(period.id)"
+    >
+      <div class="slot-top">
+        <select class="title" aria-label="Продукт" (change)="setProduct(period.id, $event)">
+          @for (p of store.showcaseProducts; track p.id) {
+            <option [value]="p.id" [selected]="p.id === period.productId">{{ p.name }}</option>
+          }
+        </select>
+        <button class="more" type="button" aria-label="Даты показа" (click)="toggleMenu(period.id, $event)">⋯</button>
+      </div>
+
+      <div class="time">
+        <span class="label">Начало</span>
+        <span>{{ formatLocal(period.start) }}</span>
+      </div>
+      <div class="time">
+        <span class="label">Конец</span>
+        <span>{{ formatLocal(period.end) }}</span>
+      </div>
+
+      @if (menuFor() === period.id) {
+        <div class="menu" (click)="$event.stopPropagation()">
+          <label>
+            Начало
+            <input type="datetime-local" [value]="toInput(period.start)" (change)="setDate(period.id, 'start', $event)" />
+          </label>
+          <label>
+            Конец
+            <input type="datetime-local" [value]="toInput(period.end)" (change)="setDate(period.id, 'end', $event)" />
+          </label>
+          <button class="delete" type="button" (click)="remove(period.id)">Удалить</button>
+        </div>
+      }
+    </article>
+  }
+
+  <button class="add" type="button" aria-label="Добавить следующим" (click)="addNext()">+</button>
+</div>

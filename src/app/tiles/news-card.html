@@ -1,0 +1,18 @@
+@if (news(); as item) {
+  <article class="card">
+    @if (withImage()) {
+      <img class="card-image" [src]="item.image" alt="" loading="lazy" />
+      <div class="card-shadow"></div>
+    }
+
+    @if (item.rubric; as rubric) {
+      <div class="card-rubric">
+        <span class="chip" [class.exclusive]="rubric.exclusive">{{ rubric.title }}</span>
+      </div>
+    }
+    <h3 class="card-title">{{ item.title }}</h3>
+    @if (item.date) {
+      <time class="card-date">{{ item.date }}</time>
+    }
+  </article>
+}

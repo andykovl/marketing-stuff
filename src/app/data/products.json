@@ -1,0 +1,230 @@
+{
+  "products": [
+    {
+      "id": "unlimited",
+      "name": "The Bell.Unlimited",
+      "tagline": "Весь контент The Bell без ограничений",
+      "includes": [
+        "Рассылки",
+        "Вебинары",
+        "Все материалы на сайте"
+      ],
+      "prices": [
+        {
+          "id": "month",
+          "title": "Ежемесячный",
+          "unitAmount": 3900,
+          "currency": "usd",
+          "compareAtAmount": 4700,
+          "recurring": {
+            "interval": "month",
+            "intervalCount": 1
+          }
+        },
+        {
+          "id": "half-year",
+          "title": "Полугодовой",
+          "unitAmount": 21900,
+          "currency": "usd",
+          "compareAtAmount": 25700,
+          "recurring": {
+            "interval": "month",
+            "intervalCount": 6
+          }
+        },
+        {
+          "id": "year",
+          "title": "Годовой",
+          "unitAmount": 39900,
+          "currency": "usd",
+          "compareAtAmount": 46500,
+          "recurring": {
+            "interval": "year",
+            "intervalCount": 1
+          }
+        }
+      ],
+      "accent": "#657cfd",
+      "image": "snapshot/products/unlimited.webp",
+      "showcase": true
+    },
+    {
+      "id": "news",
+      "name": "Рассылки The Bell",
+      "tagline": "Утро, Вечер и Итоги недели",
+      "includes": [
+        "Новости",
+        "Аналитика"
+      ],
+      "prices": [
+        {
+          "id": "month",
+          "title": "Месяц",
+          "unitAmount": 980,
+          "currency": "usd",
+          "recurring": {
+            "interval": "month",
+            "intervalCount": 1
+          }
+        },
+        {
+          "id": "half-year",
+          "title": "Полгода",
+          "unitAmount": 5880,
+          "currency": "usd",
+          "recurring": {
+            "interval": "month",
+            "intervalCount": 6
+          }
+        },
+        {
+          "id": "year",
+          "title": "Год",
+          "unitAmount": 10700,
+          "currency": "usd",
+          "recurring": {
+            "interval": "year",
+            "intervalCount": 1
+          }
+        }
+      ],
+      "accent": "#eb3323",
+      "image": "snapshot/products/news.webp",
+      "showcase": true
+    },
+    {
+      "id": "invest",
+      "name": "The Bell.Invest",
+      "tagline": "Фондовый рынок глазами долгосрочного инвестора",
+      "includes": [
+        "Материалы",
+        "Рассылки",
+        "Вебинары"
+      ],
+      "prices": [
+        {
+          "id": "trial",
+          "title": "Пробный",
+          "unitAmount": 100,
+          "currency": "usd",
+          "recurring": {
+            "interval": "month",
+            "intervalCount": 1
+          },
+          "trial": true,
+          "note": "Четыре рассылки, без вебинаров и архива"
+        },
+        {
+          "id": "month",
+          "title": "Месячный",
+          "unitAmount": 1890,
+          "currency": "usd",
+          "recurring": {
+            "interval": "month",
+            "intervalCount": 1
+          }
+        },
+        {
+          "id": "half-year",
+          "title": "Полугодовой",
+          "unitAmount": 9000,
+          "currency": "usd",
+          "recurring": {
+            "interval": "month",
+            "intervalCount": 6
+          }
+        },
+        {
+          "id": "year",
+          "title": "Годовой",
+          "unitAmount": 18000,
+          "currency": "usd",
+          "recurring": {
+            "interval": "year",
+            "intervalCount": 1
+          }
+        }
+      ],
+      "accent": "#ff4b27",
+      "image": "snapshot/products/invest.webp",
+      "imageBleed": true,
+      "showcase": true
+    },
+    {
+      "id": "tech",
+      "name": "The Bell.Tech",
+      "tagline": "Рассылка и вебинары о технологиях",
+      "includes": [
+        "Рассылки",
+        "Вебинары",
+        "Telegram-канал"
+      ],
+      "prices": [
+        {
+          "id": "trial",
+          "title": "Пробный",
+          "unitAmount": 100,
+          "currency": "usd",
+          "recurring": {
+            "interval": "month",
+            "intervalCount": 1
+          },
+          "trial": true,
+          "intro": true,
+          "note": "Только для новых пользователей"
+        },
+        {
+          "id": "month",
+          "title": "Месячный",
+          "unitAmount": 1490,
+          "currency": "usd",
+          "recurring": {
+            "interval": "month",
+            "intervalCount": 1
+          }
+        },
+        {
+          "id": "year",
+          "title": "Годовой",
+          "unitAmount": 14900,
+          "currency": "usd",
+          "recurring": {
+            "interval": "year",
+            "intervalCount": 1
+          }
+        }
+      ],
+      "accent": "#325cd5",
+      "theme": "light",
+      "image": "snapshot/products/tech.webp",
+      "imageBleed": true,
+      "showcase": true
+    },
+    {
+      "id": "the-chat",
+      "name": "The Chat",
+      "tagline": "Закрытое сообщество предпринимателей и инвесторов",
+      "includes": [
+        "Закрытые вебинары",
+        "Сообщество 180+ участников",
+        "Офлайн-встречи"
+      ],
+      "prices": [
+        {
+          "id": "month",
+          "title": "Участие",
+          "unitAmount": 17500,
+          "currency": "usd",
+          "recurring": {
+            "interval": "month",
+            "intervalCount": 1
+          },
+          "amountIsFrom": true,
+          "note": "Нужны две рекомендации"
+        }
+      ],
+      "accent": "#111111",
+      "showcase": false
+    }
+  ]
+}

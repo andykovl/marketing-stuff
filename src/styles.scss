@@ -1,0 +1,48 @@
+:root {
+  --page-width: 1234px;
+  --page-gutter: 0px;
+  --accent: #eb3323;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  min-height: 100vh;
+  font-family: 'Roboto Flex', system-ui, sans-serif;
+  color: #000;
+  background: #fafafa;
+  -webkit-font-smoothing: antialiased;
+}
+
+html {
+  scrollbar-gutter: stable;
+}
+
+html:has(dialog.checkout[open]) {
+  overflow: hidden;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  white-space: nowrap;
+}
+
+@media (max-width: 1274px) {
+  :root {
+    --page-gutter: 20px;
+  }
+}
+
+@media (max-width: 767px) {
+  :root {
+    --page-gutter: 4px;
+  }
+}

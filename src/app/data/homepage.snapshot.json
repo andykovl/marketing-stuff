@@ -1,0 +1,597 @@
+{
+  "source": "https://thebell.io/",
+  "fetchedAt": "2026-11-24T16:58:28.509Z",
+  "lines": [
+    {
+      "id": "line-0",
+      "basis": 25,
+      "minHeight": 175,
+      "slots": [
+        "inertsionnoe-razvitie-tolkaet-rossiyu-kkitayu-tsmakp",
+        "pentagon-zaderzhivaet-postavki-patriot-ukraine",
+        "v-gosdume-podgotovili-zakonoproekt-ob-ogranichenii-inostrannogo-kino",
+        "nvidia-vernula-dzhensena-khuanga-na-dolzhnosti-prezidenta-i-generalnogo-direktora"
+      ]
+    },
+    {
+      "id": "line-1",
+      "basis": 50,
+      "minHeight": 300,
+      "slots": [
+        "evropa-gotovitsya-ko-vtoromu-energokrizisu-za-pyat-let-morossiyskikh-energoresursov",
+        "kto-vernul-khuanga-v-nvidia-v-evropu-po-voennomu-biletu-v-budushchem-rossii-tolko-kitay"
+      ]
+    },
+    {
+      "id": "line-2",
+      "basis": 33,
+      "minHeight": 300,
+      "slots": [
+        "chto-dorogoy-dollar-sdelaet-s-pribylyu-kompaniy-iz-sp-500",
+        "webinar-webinar_tech_november2026",
+        "uoll-strit-otygryvaet-khudshuyu-nedelyu-s-2025-goda"
+      ]
+    },
+    {
+      "id": "line-3",
+      "basis": 25,
+      "minHeight": 175,
+      "slots": [
+        "ukraina-nanesla-udar-posnabzheniyu-izashchite-morskikh-baz-rossii",
+        "vlasti-vydelyat-dengi-iz-fnb-na-paromy-dlya-kaliningrada-na-fone-ugrozy-blokady",
+        "klimaticheskiy-sammit-zakonchilsya-bez-soglasheniya-iz-za-obshchego-razlada-irossii",
+        "nvidia-grozit-ugolovnoe-presledovanie"
+      ]
+    },
+    {
+      "id": "line-4",
+      "basis": 33,
+      "minHeight": 300,
+      "slots": [
+        "pochemu-sammit-v-shenchzhene-ne-priblizil-mir-evropa-zakryvaetsya-dlya-rossiyan-i-chto-izmenitsya-dlya-anthropic-posle-ipo",
+        "dzhensen-khuang-snova-na-kone-700-tysyach-rossiyskikh-poter-v-ukraine-i-pervyy-za-vremya-voyny-arest-gubernatora",
+        "seychas-ili-nikogda-kak-zarabotat-na-volne-megasdelok"
+      ]
+    },
+    {
+      "id": "line-5",
+      "basis": 100,
+      "minHeight": 500,
+      "slots": [
+        "pochemu-ipo-anthropic-vazhno-dlya-vsekh-novaya-sanktsionnaya-zachistka-na-rossiyskom-tekhnorynke-i-premera-gta-vi"
+      ]
+    },
+    {
+      "id": "line-6",
+      "basis": 25,
+      "minHeight": 175,
+      "slots": [
+        "rossiyskiy-voennyy-korabl-vzorvalsya-v-livii",
+        "v-kaliningrade-vpervye-s-nachala-voyny-obyavili-vozdushnuyu-trevogu",
+        "gta-vi-prinesla-379-mlrd-v-pervyy-den-prodazh",
+        "tatyana-kim-ushla-s-posta-gendirektora-wildberries"
+      ]
+    },
+    {
+      "id": "line-7",
+      "basis": 50,
+      "minHeight": 300,
+      "slots": [
+        "kompaniya-na-14-trln-kak-anthropic-khotela-pritormozit-gonku-ii-no-vyrvalas-v-ney-vpered",
+        "data-tsentry-zastavyat-platit-bolshe-ot-ii-zhdut-otskoka-gaz-dlya-evropy-dorozhaet"
+      ]
+    },
+    {
+      "id": "line-8",
+      "basis": 33,
+      "minHeight": 300,
+      "slots": [
+        "est-li-shansy-u-peregovorov-istoriya-padeniya-dzhensena-khuanga-i-gde-investoru-pryatatsya-ot-ii-rasprodazhi",
+        "data-tsentry-na-pauze-vo-skolko-pobeda-demokratov-mozhet-oboytis-uchastnikam-ii-gonki",
+        "chipy-shpiony-i-kontrabanda-vse-chto-nuzhno-znat-ob-uvolnenii-glavy-nvidia-dzhensena-khuanga"
+      ]
+    },
+    {
+      "id": "line-9",
+      "basis": 25,
+      "minHeight": 175,
+      "slots": [
+        "bitkoin-upal-do-dvukhletnego-minimuma",
+        "do-60-chelovek-vyroslo-chislo-ranenykh-v-rezultate-rossiyskogo-udara-po-krivomu-rogu",
+        "rekordnoe-ipo-anthropic-ne-spaslo-ii-ralli",
+        "kompaniya-tatyany-kim-lishilas-kontrolya-vrwb"
+      ]
+    },
+    {
+      "id": "line-10",
+      "basis": 50,
+      "minHeight": 300,
+      "slots": [
+        "perezhdat-buryu-tri-nadezhnye-dividendnye-kompanii-dlya-nespokoynykh-vremen",
+        "chem-bigtekhi-rasplachivayutsya-za-ii-gonku-analiziruem-otchety-alphabet-amazon-meta-apple-i-microsoft"
+      ]
+    },
+    {
+      "id": "line-11",
+      "basis": 33,
+      "minHeight": 300,
+      "slots": [
+        "temnye-loshadki-ii-buma-tri-kompanii-kotorye-mogut-povtorit-uspekh-netflix",
+        "pochemu-amerika-nenavidit-data-tsentry-khronologiya-samogo-bolshogo-kriptovzloma-v-istorii-i-kto-v-itoge-zarabotaet-na-ii",
+        "razgrom-respublikantsev-i-trampa-na-vyborakh-v-ssha-obval-fondovogo-rynka-posle-pobedy-demokratov-i-novye-peregovory-s-ukrainoy"
+      ]
+    },
+    {
+      "id": "line-12",
+      "basis": 25,
+      "minHeight": 175,
+      "slots": [
+        "mintsifry-obosnovalo-uskorennoe-podorozhanie-svyazi",
+        "khusnullin-priznal-chto-u-krymskogo-mosta-povrezhdena-arka-srokov-vosstanovleniya-po-prezhnemu-net",
+        "aktsii-anthropic-otkrylis-na-34-vyshe-tseny-ipo-kompaniyu-otsenili-primerno-v-2-trln",
+        "genprokuratura-predupredila-vladeltsa-wikipedia-onezhelatelnom-statuse"
+      ]
+    },
+    {
+      "id": "line-13",
+      "basis": 100,
+      "minHeight": 500,
+      "slots": [
+        "khorosho-upravlyaemyy-krizis-kak-rossiyskie-banki-kopyat-problemy"
+      ]
+    },
+    {
+      "id": "line-14",
+      "basis": 25,
+      "minHeight": 175,
+      "slots": [
+        "byvshego-pervogo-zamministra-oborony-ruslana-tsalikova-prigovorili-k-10-godam-kolonii-za-khishchenie-66-mlrd-rubley",
+        "putin-poobeshchal-eskalatsiyu-posle-udara-po-krymskomu-mostu",
+        "putin-tramp-i-si-tszinpin-prinyali-deklaratsiyu-o-mire-ob-ukraine-v-ney-nichego-net",
+        "mir-mozhet-oboytis-bez-ormuzskogo-proliva--mea"
+      ]
+    }
+  ],
+  "news": [
+    {
+      "id": "inertsionnoe-razvitie-tolkaet-rossiyu-kkitayu-tsmakp",
+      "title": "Инерционное развитие толкает Россию к Китаю — ЦМАКП",
+      "rubric": {
+        "title": "Новости",
+        "exclusive": false
+      },
+      "date": "24 ноября 2026",
+      "image": null
+    },
+    {
+      "id": "pentagon-zaderzhivaet-postavki-patriot-ukraine",
+      "title": "Пентагон задерживает поставки Patriot Украине",
+      "rubric": {
+        "title": "Новости",
+        "exclusive": false
+      },
+      "date": "24 ноября 2026",
+      "image": null
+    },
+    {
+      "id": "v-gosdume-podgotovili-zakonoproekt-ob-ogranichenii-inostrannogo-kino",
+      "title": "В Госдуме подготовили законопроект об ограничении иностранного кино",
+      "rubric": {
+        "title": "Новости",
+        "exclusive": false
+      },
+      "date": "24 ноября 2026",
+      "image": null
+    },
+    {
+      "id": "nvidia-vernula-dzhensena-khuanga-na-dolzhnosti-prezidenta-i-generalnogo-direktora",
+      "title": "Nvidia вернула Дженсена Хуанга на должности президента и генерального директора",
+      "rubric": {
+        "title": "Новости",
+        "exclusive": false
+      },
+      "date": "23 ноября 2026",
+      "image": null
+    },
+    {
+      "id": "evropa-gotovitsya-ko-vtoromu-energokrizisu-za-pyat-let-morossiyskikh-energoresursov",
+      "title": "Европа готовится ко второму энергокризису за пять лет. Заставит ли это ЕС вернуться к закупкам российских нефти и газа?",
+      "rubric": {
+        "title": "The Bell объясняет",
+        "exclusive": false
+      },
+      "date": "24 ноября 2026",
+      "image": "snapshot/f5e87319-a16d-411a-971d-b33e45643c64_1264_600.webp"
+    },
+    {
+      "id": "kto-vernul-khuanga-v-nvidia-v-evropu-po-voennomu-biletu-v-budushchem-rossii-tolko-kitay",
+      "title": "Кто вернул Хуанга в Nvidia, в Европу по военному билету, в будущем России только Китай",
+      "rubric": {
+        "title": "Утренняя рассылка",
+        "exclusive": false
+      },
+      "date": "24 ноября 2026",
+      "image": "snapshot/a3c90a4f-7bde-4cc9-a0c2-22d2d9085f49_1264_600.webp"
+    },
+    {
+      "id": "chto-dorogoy-dollar-sdelaet-s-pribylyu-kompaniy-iz-sp-500",
+      "title": "Что дорогой доллар сделает с прибылью компаний из S&P 500",
+      "rubric": {
+        "title": "The Bell.Invest",
+        "exclusive": false
+      },
+      "date": "20 ноября 2026",
+      "image": "snapshot/3a1acba5-7e2a-4ba7-a382-82e4a02639c9_812_600.webp"
+    },
+    {
+      "id": "webinar-webinar_tech_november2026",
+      "title": "Темная сторона AI: могут ли модели окончательно выйти из-под контроля. Закрытый вебинар The Bell.Tech",
+      "rubric": {
+        "title": "The Bell.Tech",
+        "exclusive": false
+      },
+      "date": "",
+      "image": "snapshot/896fdbe8-9063-45f9-8e18-0dd2302dd005_812_600.webp"
+    },
+    {
+      "id": "uoll-strit-otygryvaet-khudshuyu-nedelyu-s-2025-goda",
+      "title": "Уолл-стрит отыгрывает худшую неделю с 2025 года",
+      "rubric": {
+        "title": "Новости",
+        "exclusive": false
+      },
+      "date": "23 ноября 2026",
+      "image": "snapshot/06dea6de-d279-4348-bf38-dda79110ad8d_812_600.webp"
+    },
+    {
+      "id": "ukraina-nanesla-udar-posnabzheniyu-izashchite-morskikh-baz-rossii",
+      "title": "Украина нанесла удар по снабжению и защите морских баз России",
+      "rubric": {
+        "title": "Новости",
+        "exclusive": false
+      },
+      "date": "23 ноября 2026",
+      "image": null
+    },
+    {
+      "id": "vlasti-vydelyat-dengi-iz-fnb-na-paromy-dlya-kaliningrada-na-fone-ugrozy-blokady",
+      "title": "Власти выделят деньги из ФНБ на паромы для Калининграда на фоне угрозы блокады",
+      "rubric": {
+        "title": "Новости",
+        "exclusive": false
+      },
+      "date": "23 ноября 2026",
+      "image": null
+    },
+    {
+      "id": "klimaticheskiy-sammit-zakonchilsya-bez-soglasheniya-iz-za-obshchego-razlada-irossii",
+      "title": "Климатический саммит закончился без соглашения из-за общего разлада и России",
+      "rubric": {
+        "title": "Новости",
+        "exclusive": false
+      },
+      "date": "23 ноября 2026",
+      "image": null
+    },
+    {
+      "id": "nvidia-grozit-ugolovnoe-presledovanie",
+      "title": "Nvidia грозит уголовное преследование",
+      "rubric": {
+        "title": "Новости",
+        "exclusive": false
+      },
+      "date": "22 ноября 2026",
+      "image": null
+    },
+    {
+      "id": "pochemu-sammit-v-shenchzhene-ne-priblizil-mir-evropa-zakryvaetsya-dlya-rossiyan-i-chto-izmenitsya-dlya-anthropic-posle-ipo",
+      "title": "Почему саммит в Шэньчжэне не приблизил мир, Европа закрывается для россиян и что изменится для Anthropic после IPO",
+      "rubric": {
+        "title": "Итоги недели",
+        "exclusive": false
+      },
+      "date": "20 ноября 2026",
+      "image": "snapshot/7744fa26-ad6c-416f-a398-42c61473e256.png"
+    },
+    {
+      "id": "dzhensen-khuang-snova-na-kone-700-tysyach-rossiyskikh-poter-v-ukraine-i-pervyy-za-vremya-voyny-arest-gubernatora",
+      "title": "Дженсен Хуанг снова на коне, 700 тысяч российских потерь в Украине и первый за время войны арест губернатора",
+      "rubric": {
+        "title": "Вечерняя рассылка",
+        "exclusive": false
+      },
+      "date": "23 ноября 2026",
+      "image": "snapshot/3ebfa97b-a3a1-4fb0-ac48-a199d42d5fb4_812_600.webp"
+    },
+    {
+      "id": "seychas-ili-nikogda-kak-zarabotat-na-volne-megasdelok",
+      "title": "Сейчас или никогда. Как заработать на волне мегасделок",
+      "rubric": {
+        "title": "The Bell.Invest",
+        "exclusive": false
+      },
+      "date": "13 ноября 2026",
+      "image": "snapshot/c584ec5e-f984-4a18-8004-d85838cae8c0_812_600.webp"
+    },
+    {
+      "id": "pochemu-ipo-anthropic-vazhno-dlya-vsekh-novaya-sanktsionnaya-zachistka-na-rossiyskom-tekhnorynke-i-premera-gta-vi",
+      "title": "Почему IPO Anthropic важно для всех, новая санкционная зачистка на российском технорынке и премьера GTA VI",
+      "rubric": {
+        "title": "The Bell.Tech",
+        "exclusive": false
+      },
+      "date": "22 ноября 2026",
+      "image": "snapshot/3010bd61-d962-40e3-82f4-db9ed20e0823_2528_1000.webp"
+    },
+    {
+      "id": "rossiyskiy-voennyy-korabl-vzorvalsya-v-livii",
+      "title": "Российский военный корабль взорвался в Ливии",
+      "rubric": {
+        "title": "Новости",
+        "exclusive": false
+      },
+      "date": "22 ноября 2026",
+      "image": null
+    },
+    {
+      "id": "v-kaliningrade-vpervye-s-nachala-voyny-obyavili-vozdushnuyu-trevogu",
+      "title": "В Калининграде впервые с начала войны объявили воздушную тревогу",
+      "rubric": {
+        "title": "Новости",
+        "exclusive": false
+      },
+      "date": "22 ноября 2026",
+      "image": null
+    },
+    {
+      "id": "gta-vi-prinesla-379-mlrd-v-pervyy-den-prodazh",
+      "title": "GTA VI принесла $3,79 млрд в первый день продаж",
+      "rubric": {
+        "title": "Новости",
+        "exclusive": false
+      },
+      "date": "21 ноября 2026",
+      "image": null
+    },
+    {
+      "id": "tatyana-kim-ushla-s-posta-gendirektora-wildberries",
+      "title": "Татьяна Ким ушла с поста гендиректора Wildberries",
+      "rubric": {
+        "title": "Новости",
+        "exclusive": false
+      },
+      "date": "21 ноября 2026",
+      "image": null
+    },
+    {
+      "id": "kompaniya-na-14-trln-kak-anthropic-khotela-pritormozit-gonku-ii-no-vyrvalas-v-ney-vpered",
+      "title": "Компания на $1,4 трлн: как Anthropic хотела притормозить гонку ИИ, но вырвалась в ней вперед",
+      "rubric": {
+        "title": "Истории",
+        "exclusive": false
+      },
+      "date": "18 ноября 2026",
+      "image": "snapshot/0076badb-bb9c-4c50-8fc7-8efbd0a1f49b_1264_600.webp"
+    },
+    {
+      "id": "data-tsentry-zastavyat-platit-bolshe-ot-ii-zhdut-otskoka-gaz-dlya-evropy-dorozhaet",
+      "title": "Дата-центры заставят платить больше, от ИИ ждут отскока, газ для Европы дорожает",
+      "rubric": {
+        "title": "Утренняя рассылка",
+        "exclusive": false
+      },
+      "date": "23 ноября 2026",
+      "image": "snapshot/879546c6-b0bd-4afe-a1e3-2295d3ad681a_1264_600.webp"
+    },
+    {
+      "id": "est-li-shansy-u-peregovorov-istoriya-padeniya-dzhensena-khuanga-i-gde-investoru-pryatatsya-ot-ii-rasprodazhi",
+      "title": "Есть ли шансы у переговоров, история падения Дженсена Хуанга и где инвестору прятаться от ИИ-распродажи",
+      "rubric": {
+        "title": "Итоги недели",
+        "exclusive": false
+      },
+      "date": "14 ноября 2026",
+      "image": "snapshot/0b315592-3bdb-4f6b-ac63-701d6043d757_812_600.webp"
+    },
+    {
+      "id": "data-tsentry-na-pauze-vo-skolko-pobeda-demokratov-mozhet-oboytis-uchastnikam-ii-gonki",
+      "title": "Дата-центры на паузе. Во сколько победа демократов может обойтись участникам ИИ-гонки",
+      "rubric": {
+        "title": "The Bell.Invest",
+        "exclusive": false
+      },
+      "date": "13 ноября 2026",
+      "image": "snapshot/df834af1-dd37-4420-a8cc-e6c21c81056e_812_600.webp"
+    },
+    {
+      "id": "chipy-shpiony-i-kontrabanda-vse-chto-nuzhno-znat-ob-uvolnenii-glavy-nvidia-dzhensena-khuanga",
+      "title": "Чипы, шпионы и контрабанда: все, что нужно знать об увольнении главы Nvidia Дженсена Хуанга",
+      "rubric": {
+        "title": "The Bell.Tech",
+        "exclusive": false
+      },
+      "date": "14 ноября 2026",
+      "image": "snapshot/e647585a-6079-4524-a373-6e7a8e63bd1e_812_600.webp"
+    },
+    {
+      "id": "bitkoin-upal-do-dvukhletnego-minimuma",
+      "title": "Биткоин упал до двухлетнего минимума",
+      "rubric": {
+        "title": "Новости",
+        "exclusive": false
+      },
+      "date": "21 ноября 2026",
+      "image": null
+    },
+    {
+      "id": "do-60-chelovek-vyroslo-chislo-ranenykh-v-rezultate-rossiyskogo-udara-po-krivomu-rogu",
+      "title": "До 60 человек выросло число раненых в результате российского удара по Кривому Рогу",
+      "rubric": {
+        "title": "Новости",
+        "exclusive": false
+      },
+      "date": "21 ноября 2026",
+      "image": null
+    },
+    {
+      "id": "rekordnoe-ipo-anthropic-ne-spaslo-ii-ralli",
+      "title": "Рекордное IPO Anthropic не спасло ИИ-ралли",
+      "rubric": {
+        "title": "Новости",
+        "exclusive": false
+      },
+      "date": "20 ноября 2026",
+      "image": null
+    },
+    {
+      "id": "kompaniya-tatyany-kim-lishilas-kontrolya-vrwb",
+      "title": "Компания Татьяны Ким лишилась контроля в RWB",
+      "rubric": {
+        "title": "Новости",
+        "exclusive": false
+      },
+      "date": "20 ноября 2026",
+      "image": null
+    },
+    {
+      "id": "perezhdat-buryu-tri-nadezhnye-dividendnye-kompanii-dlya-nespokoynykh-vremen",
+      "title": "Переждать бурю. Три надежные дивидендные компании для неспокойных времен",
+      "rubric": {
+        "title": "The Bell.Invest",
+        "exclusive": false
+      },
+      "date": "6 ноября 2026",
+      "image": "snapshot/e681a25c-a5bd-48e2-a6db-ff3a66e3e960_1264_600.webp"
+    },
+    {
+      "id": "chem-bigtekhi-rasplachivayutsya-za-ii-gonku-analiziruem-otchety-alphabet-amazon-meta-apple-i-microsoft",
+      "title": "Чем бигтехи расплачиваются за ИИ-гонку. Анализируем отчеты Alphabet, Amazon, Meta, Apple и Microsoft",
+      "rubric": {
+        "title": "The Bell.Invest",
+        "exclusive": false
+      },
+      "date": "6 ноября 2026",
+      "image": "snapshot/92817e66-f591-4f85-a33a-fabe5787a38c_1264_600.webp"
+    },
+    {
+      "id": "temnye-loshadki-ii-buma-tri-kompanii-kotorye-mogut-povtorit-uspekh-netflix",
+      "title": "«Темные лошадки» ИИ-бума. Три компании, которые могут повторить успех Netflix",
+      "rubric": {
+        "title": "The Bell.Invest",
+        "exclusive": false
+      },
+      "date": "30 октября 2026",
+      "image": "snapshot/13158040-5814-47c5-85f0-43f71c365dac_812_600.webp"
+    },
+    {
+      "id": "pochemu-amerika-nenavidit-data-tsentry-khronologiya-samogo-bolshogo-kriptovzloma-v-istorii-i-kto-v-itoge-zarabotaet-na-ii",
+      "title": "Почему Америка ненавидит дата-центры, хронология самого большого криптовзлома в истории и кто в итоге заработает на ИИ",
+      "rubric": {
+        "title": "The Bell.Tech",
+        "exclusive": false
+      },
+      "date": "8 ноября 2026",
+      "image": "snapshot/6557af48-5ea3-47ee-a9cb-0aa47b8363e5_812_600.webp"
+    },
+    {
+      "id": "razgrom-respublikantsev-i-trampa-na-vyborakh-v-ssha-obval-fondovogo-rynka-posle-pobedy-demokratov-i-novye-peregovory-s-ukrainoy",
+      "title": "Разгром республиканцев и Трампа на выборах в США, обвал фондового рынка после победы демократов и новые переговоры с Украиной",
+      "rubric": {
+        "title": "Итоги недели",
+        "exclusive": false
+      },
+      "date": "7 ноября 2026",
+      "image": "snapshot/47580a78-f564-41e5-bffb-7cfcc35641fb_812_600.webp"
+    },
+    {
+      "id": "mintsifry-obosnovalo-uskorennoe-podorozhanie-svyazi",
+      "title": "Минцифры обосновало ускоренное подорожание связи",
+      "rubric": {
+        "title": "Новости",
+        "exclusive": false
+      },
+      "date": "20 ноября 2026",
+      "image": null
+    },
+    {
+      "id": "khusnullin-priznal-chto-u-krymskogo-mosta-povrezhdena-arka-srokov-vosstanovleniya-po-prezhnemu-net",
+      "title": "Хуснуллин признал, что у Крымского моста повреждена арка. Сроков восстановления по-прежнему нет",
+      "rubric": {
+        "title": "Новости",
+        "exclusive": false
+      },
+      "date": "20 ноября 2026",
+      "image": null
+    },
+    {
+      "id": "aktsii-anthropic-otkrylis-na-34-vyshe-tseny-ipo-kompaniyu-otsenili-primerno-v-2-trln",
+      "title": "Акции Anthropic открылись на 34% выше цены IPO. Компанию оценили примерно в $2 трлн",
+      "rubric": {
+        "title": "Новости",
+        "exclusive": false
+      },
+      "date": "19 ноября 2026",
+      "image": null
+    },
+    {
+      "id": "genprokuratura-predupredila-vladeltsa-wikipedia-onezhelatelnom-statuse",
+      "title": "Генпрокуратура предупредила владельца Wikipedia о нежелательном статусе",
+      "rubric": {
+        "title": "Новости",
+        "exclusive": false
+      },
+      "date": "19 ноября 2026",
+      "image": null
+    },
+    {
+      "id": "khorosho-upravlyaemyy-krizis-kak-rossiyskie-banki-kopyat-problemy",
+      "title": "Хорошо управляемый кризис. Как российские банки копят проблемы",
+      "rubric": {
+        "title": "The Bell объясняет",
+        "exclusive": false
+      },
+      "date": "4 ноября 2026",
+      "image": "snapshot/93a23d67-7012-44dd-b82f-203ba87cc46c_2528_1000.webp"
+    },
+    {
+      "id": "byvshego-pervogo-zamministra-oborony-ruslana-tsalikova-prigovorili-k-10-godam-kolonii-za-khishchenie-66-mlrd-rubley",
+      "title": "Бывшего первого замминистра обороны Руслана Цаликова приговорили к 10 годам колонии за хищение 6,6 млрд рублей",
+      "rubric": {
+        "title": "Новости",
+        "exclusive": false
+      },
+      "date": "19 ноября 2026",
+      "image": null
+    },
+    {
+      "id": "putin-poobeshchal-eskalatsiyu-posle-udara-po-krymskomu-mostu",
+      "title": "Путин пообещал эскалацию после удара по Крымскому мосту",
+      "rubric": {
+        "title": "Новости",
+        "exclusive": false
+      },
+      "date": "19 ноября 2026",
+      "image": null
+    },
+    {
+      "id": "putin-tramp-i-si-tszinpin-prinyali-deklaratsiyu-o-mire-ob-ukraine-v-ney-nichego-net",
+      "title": "Путин, Трамп и Си Цзиньпин приняли «Декларацию о мире». Об Украине в ней ничего нет",
+      "rubric": {
+        "title": "Новости",
+        "exclusive": false
+      },
+      "date": "19 ноября 2026",
+      "image": null
+    },
+    {
+      "id": "mir-mozhet-oboytis-bez-ormuzskogo-proliva--mea",
+      "title": "Мир может обойтись без Ормузского пролива – МЭА",
+      "rubric": {
+        "title": "Новости",
+        "exclusive": false
+      },
+      "date": "19 ноября 2026",
+      "image": null
+    }
+  ]
+}

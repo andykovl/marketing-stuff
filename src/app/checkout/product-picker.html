@@ -1,0 +1,55 @@
+<ng-template #art let-p>
+  <span class="art" [class.light]="p.theme === 'light'" [style.--art-accent]="p.accent">
+    <img [src]="p.image" [class.bleed]="p.imageBleed" alt="" />
+  </span>
+</ng-template>
+
+<button
+  #trigger
+  type="button"
+  class="trigger"
+  aria-haspopup="listbox"
+  [attr.aria-expanded]="open()"
+  [attr.aria-label]="'Продукт: ' + selected().name"
+  (click)="toggle()"
+>
+  <ng-container *ngTemplateOutlet="art; context: { $implicit: selected() }" />
+  <span class="text">
+    <span class="name">{{ selected().name }}</span>
+    <span class="tagline">{{ selected().tagline }}</span>
+  </span>
+  <svg class="chevron" viewBox="0 0 24 24" aria-hidden="true"><path d="M6 9l6 6 6-6" /></svg>
+</button>
+
+@if (open()) {
+  <ul
+    #list
+    class="list"
+    role="listbox"
+    tabindex="-1"
+    aria-label="Продукт"
+    [attr.aria-activedescendant]="activeId()"
+    (keydown)="onKeydown($event, trigger)"
+  >
+    @for (p of products(); track p.id; let i = $index) {
+      <li
+        class="option"
+        role="option"
+        [id]="'product-option-' + p.id"
+        [attr.aria-selected]="p === selected()"
+        [class.active]="i === activeIndex()"
+        (pointermove)="activeIndex.set(i)"
+        (click)="choose(p, trigger)"
+      >
+        <ng-container *ngTemplateOutlet="art; context: { $implicit: p }" />
+        <span class="text">
+          <span class="name">{{ p.name }}</span>
+          <span class="tagline">{{ p.tagline }}</span>
+        </span>
+        @if (p === selected()) {
+          <svg class="check" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12.5l4.5 4.5L19 7.5" /></svg>
+        }
+      </li>
+    }
+  </ul>
+}

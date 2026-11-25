@@ -1,0 +1,9 @@
+@use 'card';
+
+:host(.size-25) .card-rubric {
+  display: none;
+}
+
+:host(.with-image) .card-date {
+  display: none;
+}

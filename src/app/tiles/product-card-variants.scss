@@ -1,0 +1,196 @@
+:host(.size-33) .art {
+  height: 34%;
+}
+
+:host(.size-25) {
+  .body {
+    align-self: start;
+  }
+
+  .card-title {
+    font-weight: 600;
+  }
+}
+
+:host(.size-33),
+:host(.size-50) {
+  .card-title {
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 1.15;
+  }
+}
+
+@mixin includes-beside-cta {
+  .card {
+    grid-template-columns: 1fr auto;
+    grid-template-rows: auto 1fr auto;
+    grid-template-areas: 'rubric rubric' 'title title' 'includes date';
+    column-gap: 16px;
+    align-items: end;
+  }
+
+  .includes {
+    margin-top: 16px;
+  }
+}
+
+:host(.size-50) {
+  @include includes-beside-cta;
+}
+
+:host(.size-33) .footer {
+  justify-content: flex-start;
+}
+
+:host(.size-100) {
+  .card {
+    grid-template-rows: auto minmax(0, 1fr) auto auto auto;
+    grid-template-areas: 'rubric' 'art' 'title' 'includes' 'date';
+  }
+
+  .art {
+    position: static;
+    grid-area: art;
+    justify-self: center;
+    align-self: center;
+    height: 100%;
+    max-height: 180px;
+    min-height: 0;
+    margin-bottom: 16px;
+  }
+
+  .card-rubric,
+  .includes,
+  .footer {
+    justify-content: center;
+  }
+
+  .body {
+    text-align: center;
+  }
+
+  .card-title {
+    margin-inline: auto;
+  }
+
+  .cta {
+    padding: 12px 24px;
+    font-size: 16px;
+  }
+}
+
+@media (min-width: 768px) {
+  :host(.size-100) {
+    .card-title {
+      font-size: 64px;
+      line-height: 1.05;
+    }
+
+    .tagline {
+      margin-top: 12px;
+      font-size: 22px;
+    }
+  }
+}
+
+@media (max-width: 767px) {
+  :host(.size-33),
+  :host(.size-50) {
+    .card-title {
+      font-size: 26px;
+    }
+
+    .art {
+      height: 76px;
+    }
+  }
+
+  :host(.size-33),
+  :host(.size-50) {
+    .card {
+      grid-template-columns: 1fr;
+      grid-template-rows: auto 1fr auto auto;
+      grid-template-areas: 'rubric' 'title' 'includes' 'date';
+    }
+
+    .footer {
+      justify-content: flex-start;
+    }
+  }
+
+  :host(.size-100) .art {
+    max-height: 130px;
+  }
+}
+
+:host .card .art.bleed {
+  grid-area: auto;
+  position: absolute;
+  top: auto;
+  right: 0;
+  bottom: 0;
+  height: 85%;
+  transform: translateX(18%);
+  max-height: none;
+  margin: 0;
+}
+
+:host(.size-33) .card .art.bleed {
+  height: 65%;
+}
+
+:host(.size-100) .card .art.bleed {
+  height: 100%;
+}
+
+@media (max-width: 767px) {
+  :host(.size-33),
+  :host(.size-50) {
+    .card .art.bleed {
+      height: 55%;
+    }
+  }
+
+  :host(.size-100) .card .art.bleed {
+    width: 100%;
+    height: auto;
+    transform: translateX(12%);
+  }
+}
+
+:host(.theme-light) {
+  .card {
+    color: #000;
+    background:
+      radial-gradient(
+        120% 120% at 100% 0%,
+        color-mix(in srgb, var(--accent) 30%, transparent),
+        transparent 60%
+      ),
+      #fff;
+    border: 1px solid #e6e6e6;
+  }
+
+  .card-title {
+    color: #000;
+  }
+
+  .tagline {
+    color: #000000a6;
+  }
+
+  .includes li {
+    border-color: #00000026;
+    color: #000000cc;
+  }
+
+  .chip {
+    color: #fff;
+    background: #000;
+  }
+}
+
+:host(.theme-light.size-25) .card {
+  border: none;
+}

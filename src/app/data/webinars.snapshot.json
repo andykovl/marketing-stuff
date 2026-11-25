@@ -1,0 +1,46 @@
+{
+  "source": "https://the-chat.io/",
+  "fetchedAt": "2026-11-24T20:32:36.964Z",
+  "webinars": [
+    {
+      "id": "dashevsky",
+      "start": "2026-09-14T16:00:00.000Z",
+      "title": "Портфель инвестора в 2026-2027 годах",
+      "speaker": "Стивен Дашевский — исполнительный директор D&P Advisors, портфельный менеджер",
+      "durationMin": 90,
+      "image": "snapshot/webinars/dashevsky.jpg",
+      "imageFocus": "48% 15%",
+      "productId": "the-chat"
+    },
+    {
+      "id": "libermans",
+      "start": "2026-10-14T18:00:00.000Z",
+      "title": "Будущее AI: мы создаем бога?",
+      "speaker": "Братья Даниил и Давид Либерманы — предприниматели, инвесторы, визионеры",
+      "durationMin": 90,
+      "image": "snapshot/webinars/libermans.jpg",
+      "imageFocus": "52% 42%",
+      "productId": "the-chat"
+    },
+    {
+      "id": "peshkin",
+      "start": "2026-11-18T17:00:00.000Z",
+      "title": "Как победить старение: какие ответы есть у науки и что мы можем сделать сами",
+      "speaker": "Леонид Пешкин – биолог из Гарвардского университета",
+      "durationMin": 90,
+      "image": "snapshot/webinars/peshkin.png",
+      "imageFocus": "47% 38%",
+      "productId": "the-chat"
+    },
+    {
+      "id": "arkhipova",
+      "start": "2026-12-03T18:00:00.000Z",
+      "title": "Великие антропологические открытия, изменившие мир",
+      "speaker": "Александра Архипова – социальный антрополог, фольклористка",
+      "durationMin": 90,
+      "image": "snapshot/webinars/arkhipova.jpg",
+      "imageFocus": "52% 24%",
+      "productId": "the-chat"
+    }
+  ]
+}

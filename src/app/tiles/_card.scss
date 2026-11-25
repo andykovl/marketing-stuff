@@ -1,0 +1,151 @@
+:host {
+  display: block;
+  height: 100%;
+}
+
+.card {
+  position: relative;
+  box-sizing: border-box;
+  height: 100%;
+  overflow: hidden;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  grid-template-areas: 'rubric' 'title' 'date';
+  padding: 20px;
+  border-radius: 8px;
+  background: #fff;
+  border: 1px solid #e6e6e6;
+}
+
+.card-image,
+.card-shadow {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 8px;
+}
+
+.card-image {
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+.card-shadow {
+  background:
+    linear-gradient(180deg, #0000 48%, #000000b3), linear-gradient(0deg, #00000026, #00000026);
+}
+
+.card-rubric {
+  grid-area: rubric;
+  display: flex;
+  align-self: start;
+  gap: 8px;
+  position: relative;
+  z-index: 2;
+}
+
+.chip {
+  display: inline-flex;
+  align-items: center;
+  margin: 0 0 20px;
+  padding: 7px 10px 6px;
+  border-radius: 8px;
+  font-size: 11px;
+  font-weight: 600;
+  line-height: 1;
+  text-transform: uppercase;
+  color: #fff;
+  background: #000;
+
+  &.exclusive {
+    background: #ff1818;
+  }
+}
+
+.card-title {
+  grid-area: title;
+  position: relative;
+  margin: 0;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.3;
+  color: #000;
+}
+
+.card-date {
+  grid-area: date;
+  position: relative;
+  z-index: 2;
+  align-self: end;
+  margin-top: 20px;
+  font-size: 11px;
+  line-height: 1;
+  text-transform: uppercase;
+  color: #9e9e9e;
+}
+
+.cta {
+  padding: 8px 16px;
+  border: 0;
+  border-radius: 8px;
+  background: #eb3323;
+  color: #fff;
+  font: inherit;
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+:host(.size-25) .card {
+  border: none;
+  background: none;
+}
+
+@media (max-width: 767px) {
+  :host(.size-25) .card {
+    border: 1px solid #e6e6e6;
+    background: #fff;
+  }
+}
+
+:host(.with-image) {
+  .card {
+    border: none;
+    background: #222;
+  }
+
+  .card:hover .card-image {
+    transform: scale(1.03);
+  }
+
+  .card-title {
+    align-self: end;
+    color: #fff;
+  }
+
+  .chip:not(.exclusive):not(.status) {
+    color: #000;
+    background: #fff;
+  }
+}
+
+:host(.size-50) .card-title {
+  font-size: 25px;
+  font-weight: 600;
+  line-height: 1.2;
+}
+
+:host(.size-100) .card-title {
+  font-size: 46px;
+  font-weight: 600;
+  line-height: 1.2;
+  max-width: 900px;
+}
+
+@media (max-width: 767px) {
+  :host(.size-50) .card-title,
+  :host(.size-100) .card-title {
+    font-size: 24px;
+  }
+}

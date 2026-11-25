@@ -1,0 +1,159 @@
+@use 'card';
+
+:host {
+  --chat-red: #db3951;
+  --chat-purple: #513c74;
+  --chat-mint: #4ddbbb;
+  container-type: inline-size;
+}
+
+.card,
+:host(.size-25) .card,
+:host(.with-image) .card {
+  border: none;
+  color: #fff;
+  background: var(--chat-purple);
+}
+
+.card-title {
+  color: #fff;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 4;
+  overflow: hidden;
+}
+
+.card-rubric {
+  flex-wrap: wrap;
+}
+
+:host .card .card-rubric .chip.kind {
+  color: var(--chat-purple);
+  background: var(--chat-mint);
+}
+
+.body {
+  grid-area: title;
+  align-self: end;
+  position: relative;
+}
+
+.speaker {
+  display: none;
+  margin: 10px 0 0;
+  font-size: 14px;
+  line-height: 1.35;
+  color: #ffffffcc;
+}
+
+.footer {
+  grid-area: date;
+  position: relative;
+  z-index: 2;
+  display: flex;
+  margin-top: 16px;
+}
+
+.cta {
+  background: var(--chat-red);
+}
+
+.status {
+  gap: 6px;
+  color: #000;
+  background: #f2f2f2;
+
+  &.live {
+    color: #fff;
+    background: var(--chat-red);
+  }
+}
+
+.dot {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: currentColor;
+  animation: pulse 1.4s ease-in-out infinite;
+}
+
+@keyframes pulse {
+  50% {
+    opacity: 0.3;
+  }
+}
+
+:host(.size-25) .card-title {
+  font-weight: 600;
+}
+
+:host(.with-image) {
+  --photo-w: 40%;
+
+  .card {
+    padding-right: calc(var(--photo-w) + 24px);
+  }
+
+  .card-image {
+    left: auto;
+    width: var(--photo-w);
+    border-radius: 0 8px 8px 0;
+    object-position: var(--focus-x, 50%) top;
+  }
+}
+
+@media (min-width: 768px) {
+  :host(.with-image.size-50),
+  :host(.with-image.size-100) {
+    .speaker {
+      display: block;
+    }
+  }
+
+  :host(.with-image.size-50) .card-title {
+    -webkit-line-clamp: 3;
+  }
+
+  :host(.with-image.size-100) {
+    .card {
+      padding: 32px calc(var(--photo-w) + 40px) 32px 40px;
+    }
+
+    .card-title {
+      max-width: none;
+      font-size: clamp(24px, 3.2cqi, 40px);
+      line-height: 1.15;
+      -webkit-line-clamp: 3;
+    }
+
+    .speaker {
+      font-size: 16px;
+    }
+
+    .cta {
+      padding: 12px 24px;
+      font-size: 16px;
+    }
+  }
+}
+
+@media (max-width: 767px) {
+  :host(.with-image) .card-title {
+    font-size: 18px;
+    font-weight: 600;
+  }
+}
+
+:host(.size-25) {
+  .chip {
+    margin-bottom: 12px;
+  }
+
+  .card-title {
+    -webkit-line-clamp: 2;
+  }
+
+  .footer {
+    margin-top: 12px;
+  }
+}
